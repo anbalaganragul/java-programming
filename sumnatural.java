@@ -1,14 +1,14 @@
-public class sumnatural 
-{
-
-public static void main(String[] args) {
-int num = 4, sum = 0;
-for(int i = 1; i <= num; ++i)
+import java.util.*;
+import java.util.Scanner;
+public class sumnatural{
+    public static void main(String[] args) {
+        int num,sum=0;
+       Scanner in=new Scanner(System.in);
+       num = in.nextInt();
+        for(int i = 1; i <= num; ++i)
         {
-            // sum = sum + i;
             sum += i;
         }
-
-        System.out.println("Sum = " + sum);
+        System.out.println(+ sum);
     }
 }
